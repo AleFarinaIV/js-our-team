@@ -32,3 +32,6 @@ const ourTeam = [
         photo: 'barbara-ramos-graphic-designer.jpg'
     }
 ]
+
+// Stampo in console il mio array di oggetti, con le varie informazioni
+console.log(ourTeam)
