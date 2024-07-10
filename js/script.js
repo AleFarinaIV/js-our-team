@@ -33,8 +33,10 @@ const ourTeam = [
     }
 ]
 
-// Stampo in console il mio array di oggetti, con le varie informazioni
-console.log(ourTeam)
+// Stampo in console le varie informazioni utilizzando un ciclo FOR
+for (var i = 0; i < ourTeam.length; i++) {
+    console.log(ourTeam[i].name, ourTeam[i].role, ourTeam[i].photo)
+}
 
 // Variabile per recuperare l'elemento dal DOM
 const member = document.getElementById('member-list')
