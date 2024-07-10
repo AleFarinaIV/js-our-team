@@ -35,3 +35,6 @@ const ourTeam = [
 
 // Stampo in console il mio array di oggetti, con le varie informazioni
 console.log(ourTeam)
+
+// Variabile per recuperare l'elemento dal DOM
+const member = document.getElementById('member-list')
