@@ -38,3 +38,8 @@ console.log(ourTeam)
 
 // Variabile per recuperare l'elemento dal DOM
 const member = document.getElementById('member-list')
+
+// Utilizzo un ciclo FOR per stampare i membri del team a schermo
+for (let i = 0; i < ourTeam.length; i++) {
+    member.innerHTML += `${ourTeam[i].name}, ${ourTeam[i].role} ${ourTeam[i].photo}<br><br>`
+}
