@@ -44,5 +44,12 @@ const member = document.getElementById('member-list')
 // Utilizzo un ciclo FOR per stampare i membri del team a schermo
 // trasformo la stringa foto nell'immagine corrispettiva
 for (let i = 0; i < ourTeam.length; i++) {
-    member.innerHTML += `<div> <img src="./img/${ourTeam[i].photo}"></div> ${ourTeam[i].name}, ${ourTeam[i].role}<br><br>`
+    member.innerHTML += `
+    <div class="card">
+        <img src="./img/${ourTeam[i].photo}">
+        <div class="card-body">
+            <h2>${ourTeam[i].name}</h2>
+            <p>${ourTeam[i].role}</p>
+        </div>
+    </div>`;
 } 
